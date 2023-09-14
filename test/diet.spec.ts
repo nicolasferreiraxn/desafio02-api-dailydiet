@@ -226,7 +226,7 @@ describe('Diet App', () => {
 
     const mealId = mealsGetResponse.body.meals[0].id
 
-    const editRequestMeal = await request(app.server)
+    await request(app.server)
       .put(`/meals/${mealId}`)
       .set('Cookie', cookies)
       .send({

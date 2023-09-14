@@ -10,3 +10,7 @@ db/*.db
 
 # Build
 build
+
+#Scripts
+yarn-error.log
+yarn.lock
